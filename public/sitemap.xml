@@ -8,6 +8,21 @@
     <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/posts/</loc>
     <lastmod>2025-08-02T15:10:32+02:00</lastmod>
   </url><url>
+    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/tags/arm/</loc>
+    <lastmod>2025-08-02T11:22:53+02:00</lastmod>
+  </url><url>
+    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/tags/bicep/</loc>
+    <lastmod>2025-08-02T11:22:53+02:00</lastmod>
+  </url><url>
+    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/tags/infrastructure-as-code/</loc>
+    <lastmod>2025-08-02T11:22:53+02:00</lastmod>
+  </url><url>
+    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/tags/</loc>
+    <lastmod>2025-08-02T11:22:53+02:00</lastmod>
+  </url><url>
+    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/posts/bicep-use-outputs-from-past-deployments/</loc>
+    <lastmod>2025-08-02T11:22:53+02:00</lastmod>
+  </url><url>
     <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/contact/</loc>
   </url><url>
     <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/about-me/</loc>
@@ -15,7 +30,5 @@
     <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/categories/</loc>
   </url><url>
     <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/search/</loc>
-  </url><url>
-    <loc>https://nice-flower-020d65e03.3.azurestaticapps.net/tags/</loc>
   </url>
 </urlset>
