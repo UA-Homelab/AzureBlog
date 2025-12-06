@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Azure - In Real Life</title>
-    <link>https://example.org/</link>
+    <link>https://nice-flower-020d65e03.3.azurestaticapps.net/</link>
     <description>Recent content on Azure - In Real Life</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nice-flower-020d65e03.3.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>📬 Get in Touch</title>
-      <link>https://example.org/contact/</link>
+      <link>https://nice-flower-020d65e03.3.azurestaticapps.net/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/contact/</guid>
+      <guid>https://nice-flower-020d65e03.3.azurestaticapps.net/contact/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;d like to connect or reach out, the best way is through &lt;a href=&#34;https://www.linkedin.com/in/alexander-urdl/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I’m always open to networking, feedback, or just a friendly chat.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://example.org/about-me/</link>
+      <link>https://nice-flower-020d65e03.3.azurestaticapps.net/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/about-me/</guid>
+      <guid>https://nice-flower-020d65e03.3.azurestaticapps.net/about-me/</guid>
       <description>&lt;style&gt;
   .about-container {
     display: flex;
@@ -50,7 +50,7 @@
   }
 &lt;/style&gt;
 &lt;div class=&#34;about-container&#34;&gt;
-  &lt;img class=&#34;profile-pic&#34; src=&#34;https://example.org/me.png&#34; alt=&#34;A picture of me&#34;&gt;
+  &lt;img class=&#34;profile-pic&#34; src=&#34;https://nice-flower-020d65e03.3.azurestaticapps.net/me.png&#34; alt=&#34;A picture of me&#34;&gt;
   &lt;div class=&#34;aboutMyWork&#34;&gt;
     &lt;br&gt;
     I’m Alexander Urdl, a &lt;span id=&#34;age&#34;&gt;&lt;/span&gt;-year-old tech enthusiast with a passion for solving complex problems, building solutions and see them working (at some point at least).
