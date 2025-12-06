@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure Functions on Azure - In Real Life</title>
+    <link>http://localhost:1313/tags/azure-functions/</link>
+    <description>Recent content in Azure Functions on Azure - In Real Life</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Aug 2025 15:10:32 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/azure-functions/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run a Go API on an Azure Function App</title>
+      <link>http://localhost:1313/posts/go-on-azure-functionapp/</link>
+      <pubDate>Sat, 02 Aug 2025 15:10:32 +0200</pubDate>
+      <guid>http://localhost:1313/posts/go-on-azure-functionapp/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

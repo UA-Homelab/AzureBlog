@@ -1,0 +1,110 @@
+html {
+  align-items: center;
+}
+
+body {
+  max-width: 100%;
+  margin: auto;
+  color: #222;
+  background-color: azure;
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #197197
+}
+
+h2 {
+  margin-left: 1rem;
+}
+
+p {
+  margin-left: 1rem;
+}
+
+time {
+  margin: auto;
+  text-align: right;
+  
+}
+
+li {
+  display: inline;
+  border-right-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left: #222;
+  border-right: #222;
+  margin: 1rem;
+}
+
+.siteTitle {
+  padding-left: 20rem;
+  color: azure;
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.blogPostTitle {
+  color:#197197;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.blogPostContent {
+  padding-left: 21rem;
+}
+
+.navContainer {
+  width: 100%;
+  color: azure;
+  background-color: #197197;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.navBar {
+ 
+  padding-right: 20rem;
+  font-size: larger;
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+}
+
+a:hover {
+
+}
+
+.navBar a{
+  
+  border-left-style: solid;
+  color: azure;
+  padding-left: 1rem;
+}
+
+.navBarLink:hover {
+  font-size: x-large;
+}
+
+.linkToPost {
+  color: #197197;
+}

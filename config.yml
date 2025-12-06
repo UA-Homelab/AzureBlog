@@ -1,0 +1,64 @@
+baseURL: "https://example.org/"
+theme: papermod
+title: Azure - In Real Life
+
+menu:
+  main:
+    - name: About Me
+      url: /about-me/
+      weight: 10
+    - name: Contact
+      url: /contact/
+      weight: 20
+    - name: Posts
+      url: /posts/
+      weight: 30
+    - name: Tags
+      url: /tags/
+      weight: 40
+    - name: Search
+      url: /search/
+      weight: 50
+
+languages:
+  en:
+    languageName: "English"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+
+
+params:
+  defaultTheme: auto
+  disableThemeToggle: false
+  homeInfoParams:
+    Title: Welcome!
+    Content: This blogs goal is to share solutions and learned lessons for Azure related projects. I don't plan on writing beginner tutorials, but rather focus on real life solutions and issues that I encountered when working with Azure. <br> <br> I hope you find something useful here, and if you do, please consider sharing it with others. <br> <br> If you have any questions or suggestions, feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/alexander-urdl/). <br> <br> Happy reading!
+  socialIcons:
+  - name: "github"
+    url: "https://github.com/UA-Homelab"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/alexander-urdl/"
+  fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+  keys: ["title", "permalink", "summary", "content"]
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "x", "reddit", "facebook"] # To customize which share buttons to be enabled on page
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
