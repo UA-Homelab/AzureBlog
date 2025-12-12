@@ -1,5 +1,5 @@
 +++
-date = '2025-08-02T11:22:53+02:00'
+date = '2025-12-12T11:22:53+02:00'
 draft = false
 title = 'Use outputs from past deployments with Bicep'
 tags = ['Bicep', 'Infrastructure as Code', 'ARM']
