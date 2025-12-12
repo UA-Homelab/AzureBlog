@@ -6,7 +6,7 @@ tags = ['Bicep', 'Infrastructure as Code', 'ARM']
 
 +++
 
-<div style="border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;">
+<div style="color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;">
   <strong>Disclaimer:</strong> This is <b>NOT</b> about using output from Bicep modules with other modules, but about using the output from Bicep deployments with completely independent Bicep deployments.
 </div>
 
@@ -28,9 +28,9 @@ By leveraging outputs from previous deployments, I can keep each deployment full
 
 ## How to use past deployment outputs
 
-After some frustrating time searching for a solution, I was thinking that probably the deployments (that you can see on subscripions and resource groups) are probably also just ARM-Resources and should be able to be defined as existing resources in templates. It turns out, this was the solution!
+After some frustrating time searching for a solution, I was thinking that probably the deployments (that you can see on subscripions and resource groups) are also just ARM-Resources and therefore it should be possible to define them as existing resources in templates. 
 
-You can basically just add any deployment as an existing resource to your bicep file and then access all output values, that have been defined. So you have to start with
+It turns out that this was the solution! You can just add deployments as existing resources to your bicep file and then access all output values, that have been defined. Here is an example:
 
 ``` bicep
 

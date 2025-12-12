@@ -4,7 +4,7 @@
     <title>Posts on Azure - In Real Life</title>
     <link>https://nice-flower-020d65e03.3.azurestaticapps.net/posts/</link>
     <description>Recent content in Posts on Azure - In Real Life</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 02 Aug 2025 11:22:53 +0200</lastBuildDate>
     <atom:link href="https://nice-flower-020d65e03.3.azurestaticapps.net/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://nice-flower-020d65e03.3.azurestaticapps.net/posts/bicep-use-outputs-from-past-deployments/</link>
       <pubDate>Sat, 02 Aug 2025 11:22:53 +0200</pubDate>
       <guid>https://nice-flower-020d65e03.3.azurestaticapps.net/posts/bicep-use-outputs-from-past-deployments/</guid>
-      <description>&lt;div style=&#34;border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;&#34;&gt;
+      <description>&lt;div style=&#34;color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;&#34;&gt;
   &lt;strong&gt;Disclaimer:&lt;/strong&gt; This is &lt;b&gt;NOT&lt;/b&gt; about using output from Bicep modules with other modules, but about using the output from Bicep deployments with completely independent Bicep deployments.
 &lt;/div&gt;
 &lt;h2 id=&#34;why-i-wrote-this&#34;&gt;Why I wrote this&lt;/h2&gt;
