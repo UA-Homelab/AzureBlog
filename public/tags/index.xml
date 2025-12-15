@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Azure - In Real Life</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://azureblog.urdl.me/tags/</link>
     <description>Recent content in Tags on Azure - In Real Life</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 12 Dec 2025 11:22:53 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://azureblog.urdl.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ARM</title>
-      <link>http://localhost:1313/tags/arm/</link>
+      <link>https://azureblog.urdl.me/tags/arm/</link>
       <pubDate>Fri, 12 Dec 2025 11:22:53 +0200</pubDate>
-      <guid>http://localhost:1313/tags/arm/</guid>
+      <guid>https://azureblog.urdl.me/tags/arm/</guid>
       <description></description>
     </item>
     <item>
       <title>Bicep</title>
-      <link>http://localhost:1313/tags/bicep/</link>
+      <link>https://azureblog.urdl.me/tags/bicep/</link>
       <pubDate>Fri, 12 Dec 2025 11:22:53 +0200</pubDate>
-      <guid>http://localhost:1313/tags/bicep/</guid>
+      <guid>https://azureblog.urdl.me/tags/bicep/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure as Code</title>
-      <link>http://localhost:1313/tags/infrastructure-as-code/</link>
+      <link>https://azureblog.urdl.me/tags/infrastructure-as-code/</link>
       <pubDate>Fri, 12 Dec 2025 11:22:53 +0200</pubDate>
-      <guid>http://localhost:1313/tags/infrastructure-as-code/</guid>
+      <guid>https://azureblog.urdl.me/tags/infrastructure-as-code/</guid>
       <description></description>
     </item>
   </channel>

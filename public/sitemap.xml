@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/arm/</loc>
+    <loc>https://azureblog.urdl.me/tags/arm/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://azureblog.urdl.me/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bicep/</loc>
+    <loc>https://azureblog.urdl.me/tags/bicep/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infrastructure-as-code/</loc>
+    <loc>https://azureblog.urdl.me/tags/infrastructure-as-code/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://azureblog.urdl.me/posts/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://azureblog.urdl.me/tags/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bicep-use-outputs-from-past-deployments/</loc>
+    <loc>https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/</loc>
     <lastmod>2025-12-12T11:22:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://azureblog.urdl.me/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/about-me/</loc>
+    <loc>https://azureblog.urdl.me/about-me/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://azureblog.urdl.me/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://azureblog.urdl.me/search/</loc>
   </url>
 </urlset>
