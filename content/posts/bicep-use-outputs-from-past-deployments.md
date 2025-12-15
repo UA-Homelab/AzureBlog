@@ -22,9 +22,9 @@ You can reference all outputs from your past deployments by only knowing the dep
 
 In my role, I regularly deploy landing zones for a variety of customers, each with their own unique requirements. To streamline this process, I’ve developed templates for key areas like connectivity, management, identity and governance (management groups, policies and rbac). Some of the platform resources provisioned are later referenced in policies or other platform components. Example: A policy to send logs to a log analytics workspace in the management subscription will need the workspace as a parameter.
 
-To maximize flexibility—especially since different customer teams often handle different parts of the landing zone—I maintain separate templates for each platform area, as well as for the governance elements. However, this approach introduces a challenge: resource names and configurations can vary from customer to customer, which would normally mean updating parameters across every template and increase human errors.
+To maximize flexibility — especially since different customer teams often handle different parts of the landing zone — I maintain separate templates for each platform area, as well as for the governance elements. However, this approach introduces a challenge: resource names and configurations can vary from customer to customer, which would normally mean updating parameters across every template and increase human errors.
 
-By leveraging outputs from previous deployments, I can keep each deployment fully independent, while only needing to adjust parameters for the templates that actually create those resources. This not only simplifies the process but also makes it much easier to manage variations between customers without sacrificing modularity or maintainability.
+By using outputs from previous deployments, I can keep each deployment fully independent while only needing to adjust parameters for the templates that actually create those resources. This not only simplifies the process but also makes it much easier to manage variations between customers without sacrificing modularity or maintainability.
 
 ## How to use past deployment outputs
 
@@ -33,11 +33,18 @@ After some frustrating time searching for a solution, I was thinking that probab
 It turns out that this was the solution! You can just add deployments as existing resources to your bicep file and then access all output values, that have been defined. Here is an example:
 
 ``` bicep
-
-var deploymentName = '<insert_deployment_name>'
+param deploymentName = '<insert_deployment_name>'
 
 resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
     name: deploymentName
 }
+```
 
-``` 
+<br>
+After declaring the existing deployment like that, you can access the outputs as follows:
+
+``` bicep
+var deploymentOutput = deployment.outputs.<outputName>.value
+```
+
+H

@@ -51,6 +51,7 @@ When I’m done working, I spent time with my hobbies:
   🌱 Tending to my urban garden<br> 
   🥾 Exploring nature through hiking and biking<br>
   💻 Programming for fun and personal projects<br>
+  🏠 Automating my home with Home Assistant<br>
 </ul>
 
 <p id="age"></p>
