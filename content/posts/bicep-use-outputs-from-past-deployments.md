@@ -43,7 +43,7 @@ resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
 After declaring the existing deployment like that, you can access the outputs as follows:
 
 ``` bicep
-var deploymentOutput = deployment.outputs.<outputName>.value
+var deploymentOutput = deployment.properties.outputs.<outputName>.value
 ```
 
 ## Example
