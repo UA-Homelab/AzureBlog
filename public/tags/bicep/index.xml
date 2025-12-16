@@ -6,18 +6,18 @@
     <description>Recent content in Bicep on Azure - In Real Life</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 11:22:53 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 11:22:53 +0200</lastBuildDate>
     <atom:link href="https://azureblog.urdl.me/tags/bicep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use outputs from past deployments with Bicep</title>
       <link>https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/</link>
-      <pubDate>Fri, 12 Dec 2025 11:22:53 +0200</pubDate>
+      <pubDate>Tue, 16 Dec 2025 11:22:53 +0200</pubDate>
       <guid>https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/</guid>
       <description>&lt;div style=&#34;color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;&#34;&gt;
   &lt;strong&gt;Disclaimer:&lt;/strong&gt; This is &lt;b&gt;NOT&lt;/b&gt; about using output from Bicep modules with other modules, but about using the output from Bicep deployments with completely independent Bicep deployments.
 &lt;/div&gt;
 &lt;h2 id=&#34;why-i-wrote-this&#34;&gt;Why I wrote this&lt;/h2&gt;
-&lt;p&gt;I wanted know how to use the output of past Bicep deployments with new templates but couldn&amp;rsquo;t find any information about this, as most results only talked about using module outputs.&lt;/p&gt;</description>
+&lt;p&gt;I wanted to know if I can use the output of past Bicep deployments with new templates but couldn&amp;rsquo;t find any information about this, as most results only talked about using module outputs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
