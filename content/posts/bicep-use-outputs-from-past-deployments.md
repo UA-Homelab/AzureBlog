@@ -9,6 +9,16 @@ tags = ['Bicep', 'Infrastructure as Code', 'ARM']
   <strong>Disclaimer:</strong> This is <b>NOT</b> about using output from Bicep modules with other modules, but about using the output from Bicep deployments with other, completely different Bicep deployments.
 </div>
 
+## Table of Contents
+
+- [Why I wrote this](#why-i-wrote-this)
+- [Why is this usefull?](#why-is-this-usefull)
+- [How to use past deployment outputs](#how-to-use-past-deployment-outputs)
+- [Example](#example)
+  - [Create the log analytics workspace](#create-the-log-analytics-workspace)
+  - [Use the deployments output as policy assignment parameters](#use-the-deployments-output-as-policy-assignment-parameters)
+- [Conclusion](#conclusion)
+
 ## Why I wrote this
 
 I wanted to know if I can use the output of past Bicep deployments with new templates but couldn't find any information about this, as most results only talked about using module outputs. 

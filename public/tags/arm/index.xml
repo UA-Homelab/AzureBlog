@@ -16,6 +16,19 @@
       <description>&lt;div style=&#34;color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;&#34;&gt;
   &lt;strong&gt;Disclaimer:&lt;/strong&gt; This is &lt;b&gt;NOT&lt;/b&gt; about using output from Bicep modules with other modules, but about using the output from Bicep deployments with other, completely different Bicep deployments.
 &lt;/div&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#why-i-wrote-this&#34;&gt;Why I wrote this&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#why-is-this-usefull&#34;&gt;Why is this usefull?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#how-to-use-past-deployment-outputs&#34;&gt;How to use past deployment outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#example&#34;&gt;Example&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#create-the-log-analytics-workspace&#34;&gt;Create the log analytics workspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#use-the-deployments-output-as-policy-assignment-parameters&#34;&gt;Use the deployments output as policy assignment parameters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;why-i-wrote-this&#34;&gt;Why I wrote this&lt;/h2&gt;
 &lt;p&gt;I wanted to know if I can use the output of past Bicep deployments with new templates but couldn&amp;rsquo;t find any information about this, as most results only talked about using module outputs.&lt;/p&gt;</description>
     </item>
