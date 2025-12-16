@@ -6,7 +6,7 @@ tags = ['Bicep', 'Infrastructure as Code', 'ARM']
 +++
 
 <div style="color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;">
-  <strong>Disclaimer:</strong> This is <b>NOT</b> about using output from Bicep modules with other modules, but about using the output from Bicep deployments with completely independent Bicep deployments.
+  <strong>Disclaimer:</strong> This is <b>NOT</b> about using output from Bicep modules with other modules, but about using the output from Bicep deployments with other, completely different Bicep deployments.
 </div>
 
 ## Why I wrote this
