@@ -3,7 +3,6 @@ date = '2025-12-12T11:22:53+02:00'
 draft = false
 title = 'Use outputs from past deployments with Bicep'
 tags = ['Bicep', 'Infrastructure as Code', 'ARM']
-
 +++
 
 <div style="color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;">
@@ -46,5 +45,3 @@ After declaring the existing deployment like that, you can access the outputs as
 ``` bicep
 var deploymentOutput = deployment.outputs.<outputName>.value
 ```
-
-H
