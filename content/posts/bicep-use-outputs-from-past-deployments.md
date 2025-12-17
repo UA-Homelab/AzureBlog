@@ -39,15 +39,47 @@ By using outputs from previous deployments, I can keep each deployment fully ind
 
 After some frustrating time searching for a solution, I was thinking that probably the deployments (that you can see on subscripions and resource groups) are also just ARM-Resources and therefore it should be possible to define them as existing resources in templates. 
 
-It turns out that this was the solution! You can just add deployments as existing resources to your bicep file and then access all output values, that have been defined. Here is an example:
+It turns out that this was the solution! You can just add deployments as existing resources to your bicep file and then access all output values, that have been defined. Here are some examples:
 
-``` bicep
-param deploymentName = '<insert_deployment_name>'
+- Use a deployment from the same subscription you're deploying to:
+  ``` bicep
+  param deploymentName string = '<insert_deployment_name>'
 
-resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
-    name: deploymentName
-}
-```
+  resource deployment string 'Microsoft.Resources/deployments@2025-04-01' existing = {
+      name: deploymentName
+  }
+  ```
+- Use a deployment from another subscripion:
+  ``` bicep
+  param deploymentName string = '<insert_deployment_name>'
+  param subscriptionId string = '<insert_subscription_id'
+
+  resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
+      scope: subscription(subscriptionId)
+      name: deploymentName
+  }
+  ```
+- Use a deployment from a resource group in the same subscription your're deploying to:
+  ``` bicep
+  param deploymentName string = '<insert_deployment_name>'
+  param resourceGroupName string = '<insert_resource_group_name'
+
+  resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
+      scope: resourceGroup(resourceGroupName)
+      name: deploymentName
+  }
+  ```
+- Use a deployment from a resource group in a different subscription:
+  ``` bicep
+  param deploymentName string = '<insert_deployment_name>'
+  param subscriptionId string = '<insert_subscription_id'
+  param resourceGroupName string = '<insert_resource_group_name'
+
+  resource deployment 'Microsoft.Resources/deployments@2025-04-01' existing = {
+      scope: resourceGroup(subscriptionId, resourceGroupName)
+      name: deploymentName
+  }
+  ```
 
 <br>
 After declaring the existing deployment like that, you can access the outputs as follows:
@@ -58,7 +90,7 @@ var deploymentOutput = deployment.properties.outputs.<outputName>.value
 
 ## Example
 
-As an example I wrote a bicep template that creates a log analytics workspace. Another tamplate uses the output of this deployment to assign a policy that sends the subscriptions activity logs to to this workspace. 
+As an example I wrote a bicep template that creates a log analytics workspace. Another template uses the output of this deployment to assign a policy that sends the subscriptions activity logs to to this workspace. 
 
 The files can be found on my [GitHub](https://github.com/UA-Homelab/blogpost-code-examples/tree/main/01_bicep_use_outputs_of_past_deployments)
 
