@@ -6,12 +6,12 @@
     <description>Recent content in Bicep on Azure - In Real Life</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Dec 2025 11:22:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 11:22:53 +0200</lastBuildDate>
     <atom:link href="https://azureblog.urdl.me/tags/bicep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use outputs from past deployments with Bicep</title>
       <link>https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/</link>
-      <pubDate>Tue, 16 Dec 2025 11:22:53 +0200</pubDate>
+      <pubDate>Thu, 18 Dec 2025 11:22:53 +0200</pubDate>
       <guid>https://azureblog.urdl.me/posts/bicep-use-outputs-from-past-deployments/</guid>
       <description>&lt;div style=&#34;color: #5e5b5bff; border-left: 4px solid #f39c12; background: #fffbe6; padding: 16px; margin: 16px 0; border-radius: 4px;&#34;&gt;
   &lt;strong&gt;Disclaimer:&lt;/strong&gt; This is &lt;b&gt;NOT&lt;/b&gt; about using output from Bicep modules with other modules, but about using the output from Bicep deployments with other, completely different Bicep deployments.
