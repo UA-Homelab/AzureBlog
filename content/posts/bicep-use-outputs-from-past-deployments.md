@@ -29,11 +29,11 @@ This was actually the reason I decided to create this blog. I am hoping this wil
 
 You can reference all outputs from your past deployments by only knowing the deployment and output name.
 
-In my role, I regularly deploy landing zones and workloads for a variety of customers, each with their own unique requirements. To streamline this process, I’ve developed templates for the platform landing zones like connectivity, management, identity and governance (management groups, policies and rbac). Some of the platform resources provisioned are later referenced in policies or other platform components. Example: A policy to send logs to a log analytics workspace in the management subscription will need the workspace as a parameter.
+In my role, I regularly deploy landing zones and workloads for a variety of customers, each with their own unique requirements. To streamline this process, I’ve developed templates for the platform landing zones (connectivity, management, identity) and governance (management groups, policies and rbac). Some of the platform resources provisioned are later referenced in policies. Example: A policy to send logs to a log analytics workspace in the management subscription will need the workspace as a parameter.
 
 To maximize flexibility — especially since different customer teams often handle different parts of the landing zone — I maintain separate templates for each platform area, as well as for the governance elements. However, this approach introduces a challenge: resource names and configurations can and will vary from customer to customer, which would normally mean updating parameters across every template and increase human errors.
 
-By using outputs from previous deployments, I can keep each deployment fully independent while only needing to adjust parameters for the templates that actually create the platform resources. This not only simplifies the process but also makes it easier to manage variations between customers without sacrificing modularity or maintainability.
+By using outputs from previous deployments, I can keep each deployment fully independent while only needing to adjust parameters for the template that actually create the platform landing zones resources. This not only simplifies the process but also makes it easier to manage variations between customers without sacrificing modularity or maintainability.
 
 ## How to use past deployment outputs
 
@@ -92,7 +92,7 @@ var deploymentOutput = deployment.properties.outputs.<outputName>.value
 
 As an example I wrote a bicep template that creates a log analytics workspace. Another template uses the output of this deployment to assign a policy that sends the subscriptions activity logs to to this workspace. 
 
-The files can be found on my [GitHub](https://github.com/UA-Homelab/blogpost-code-examples/tree/main/01_bicep_use_outputs_of_past_deployments)
+The files can be found on my [GitHub](https://github.com/UA-Homelab/blogpost-code-examples/tree/main/01_bicep_use_outputs_of_past_deployments).
 
 ### Create the log analytics workspace
 
